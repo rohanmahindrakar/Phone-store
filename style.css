@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+   }
+nav a:hover {
+     background-color:orange;
+
+}
+
+.container {
+    padding: 20px;
+}
+
+.products {
+    display: flex;
+    gap: 20px;
+}
+
+.card1 {
+    border: 1px solid silver;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+
+.card1:hover {
+    transform: scale(1.05);
+    background: whitesmoke;
+}
+
+footer {
+    background: dimgray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
